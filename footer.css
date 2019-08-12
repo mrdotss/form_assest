@@ -1,0 +1,54 @@
+ /*  Footer Box */
+.footer-baru{
+	background-color: #24434B;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font-family:"Open Sans", sans-serif;
+	padding: 10px 50px;
+	margin-top: 40px;
+}
+
+.footer-baru .footer-left p{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+/* Link Footer */
+
+.footer-baru p.footer-links{
+	font-size:18px;
+	font-weight: bold;
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-baru p.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-baru .footer-right{
+	float: right;
+	margin-top: 6px;
+	max-width: 180px;
+}
+
+/* Responsivitas Footer */
+
+@media (max-width: 600px) {
+
+	.footer-baru .footer-left{
+		text-align: center;
+	}
+
+
+	.footer-baru .footer-left p.footer-links{
+		line-height: 1.8;
+	}
+}
